@@ -1,0 +1,17 @@
+           
+           
+<Column title="productId" dataIndex="productId" key="productId" />
+      <Column title="Delivery Location" dataIndex="deliveryLocation" key="lastName" />
+    <Column title="payment Mode" dataIndex="paymentMode" key="age" />
+    <Column title="Barcode" dataIndex="barcode" key="address" />
+    <Column
+      title="Action"
+      key="action"
+      render={(text, record) => (
+        <span>
+          <Button type="primary">under process</Button>
+          <Divider type="vertical" />
+          <Button style={{background:'#95de64', color:'white'}}>fulfiled</Button>
+           </span>
+      )}
+    />

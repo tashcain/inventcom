@@ -1,0 +1,89 @@
+const mongoose = require('mongoose');
+
+const DestSchema = mongoose.Schema({
+    ContactType:{
+        type:String
+    },
+    salute:{
+        type:String
+    },
+    firstname:{
+        type:String
+    },
+    lastname:{
+        type:String
+    },
+    companyname:{
+        type:String
+    },
+    contactDisplayName:{
+        type:String
+    },
+contactEmail:{
+    type:String
+},
+contactPhone:{
+    type:String
+},
+     website:{
+        type:String
+     },
+    currency:{
+        type:String
+    },
+paymentterms:{
+    type:String
+},
+    bilAddr1:{
+        type:String
+    },
+    bilAddr2:{
+        type:String
+    },
+     bilcity:{
+        type:String
+     },
+    bilstate:{
+        type:String
+    },
+      bilzip:{
+        type:String
+      },
+  bilcountry:{
+    type:String
+  },
+      bilfax:{
+        type:String
+      },
+       bilphone:{
+        type:String
+       },
+    shipAddr1:{
+        type:String
+    },
+    shipAddr2:{
+        type:String
+    },
+     shipcity:{
+        type:String
+     },
+    shipstate:{
+        type:String
+    },
+    shipzip:{
+        type:String
+    },
+    shipcountry:{
+        type:String
+    },
+    shipfax:{
+        type:String
+    },
+    shipphone: {
+        type:String
+    },
+
+
+})
+
+module.exports = mongoose.model('Dest', DestSchema);
