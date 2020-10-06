@@ -5,7 +5,7 @@ const Cors = require('cors');
 
 
 //mongoose connnection
-mongoose.connect('mongodb+srv://shubh:shubh2015@cluster0-l10ee.mongodb.net/test?retryWrites=true&w=majority',{ useNewUrlParser: true })
+mongoose.connect('mongodb+srv://shubh:<password>@cluster0-l10ee.mongodb.net/test?retryWrites=true&w=majority',{ useNewUrlParser: true })
 
 
 const app = express();
